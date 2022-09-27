@@ -1,0 +1,37 @@
+<ErrorNull>
+
+<!-- reduce headshot attack bonus from 100% to 70% -->
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']/@value">1.0</set>
+
+<!-- greatly reduce overall player damage to entities (zombies, animals, corpses, etc) by 75% -->
+<insertAfter xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']">
+	<passive_effect name="EntityDamage" operation="perc_subtract" value="0.75"/>
+</insertAfter>
+
+<!-- ExpDeficitPerDeathPercentage: increase Exp deficit % you acquire when you die, from 25% to 33%. -->
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='ExpDeficitPerDeathPercentage'][@value='.25']/@value">.33</set>
+
+<!-- ExpDeficitMaxPercentage: increase the max amount your total Exp deficit can be, from 50% to 100%. -->
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='ExpDeficitMaxPercentage'][@value='.5']/@value">1</set>
+
+<setattribute xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/triggered_effect[@trigger='onSelfRespawn']" name="id">respawn</setattribute>
+
+<!-- prevent stats restore after death respawn -->
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/triggered_effect[@id='respawn']/@buff">buffStatusCheck01,buffStatusCheck02,buffPerkAbilityUpdate</set>
+
+<!-- ** drain food and water down to 20 units after each death ** -->
+<insertAfter xpath="/entity_classes/entity_class/effect_group/triggered_effect[@id='respawn']">
+	<triggered_effect trigger="onSelfRespawn" action="ModifyStats" stat="Food" operation="set" value="20"/>
+	<triggered_effect trigger="onSelfRespawn" action="ModifyStats" stat="Water" operation="set" value="20"/>
+</insertAfter>
+
+<!-- ** reduce max health after each death, via enBuffDeathPenalty buff ** -->
+<insertAfter xpath="/entity_classes/entity_class/effect_group/triggered_effect[@id='respawn']">
+	<triggered_effect trigger="onSelfRespawn" action="AddBuff" target="self" buff="enBuffDeathPenalty">
+		<requirement name="CVarCompare" cvar="$enDeathPenalty" operation="LT" value="1.0"/>
+	</triggered_effect>
+</insertAfter>
+
+
+
+</ErrorNull>

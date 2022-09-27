@@ -1,0 +1,13 @@
+<ErrorNull>
+
+<!-- outside -->
+<set xpath="/worldglobal/environment/property[@name='ambientMoon']/@value">.8, .2</set> <!-- .9, .3 -->
+<set xpath="/worldglobal/environment/property[@name='ambientSkyScale']/@value">1, .8</set> <!-- 1, 1 -->
+
+<!-- inside -->
+<set xpath="/worldglobal/environment/property[@name='ambientInsideThreshold']/@value">0.15</set> <!-- .2 -->
+<set xpath="/worldglobal/environment/property[@name='ambientInsideSpeed']/@value">.4</set> <!-- .3 -->
+<set xpath="/worldglobal/environment/property[@name='ambientInsideEquatorScale']/@value">0.4</set> <!-- .5 -->
+<set xpath="/worldglobal/environment/property[@name='ambientInsideGroundScale']/@value">0.3</set> <!-- .4 -->
+<set xpath="/worldglobal/environment/property[@name='ambientInsideSkyScale']/@value">0.6</set> <!-- .7 -->
+</ErrorNull>

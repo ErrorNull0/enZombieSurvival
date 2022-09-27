@@ -1,0 +1,10 @@
+<ErrorNull>
+
+<!-- Ends the intial survival quest after crafting a club, and provides only 1 skill point reward. -->
+<remove xpath="/quests/quest[@id='quest_BasicSurvival5']/reward[@type='Quest']"/>
+
+<insertAfter xpath="/quests/quest[@id='quest_BasicSurvival5']/reward[@type='Exp']">
+	<reward type="SkillPoints" value="1" chainreward="true"/>
+</insertAfter>
+
+</ErrorNull>

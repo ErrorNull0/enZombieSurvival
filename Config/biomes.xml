@@ -1,0 +1,81 @@
+<ErrorNull>
+
+<!-- *************************** -->
+<!-- ***** FOREST BIOME ***** -->
+<!-- *************************** -->
+
+<!-- birds nests: default = 0.001 -->
+<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome/decorations/decoration[@blockname='cntBirdnest']/@prob">0.0001</set>
+
+<!-- cotton plants: default = 0.07 and 0.001 -->
+<set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/subbiome/decorations/decoration[@blockname='plantedCotton3Harvest']/@prob">0.005</set>
+
+
+
+<!-- ************************ -->
+<!-- ***** DESERT BIOME ***** -->
+<!-- ************************ -->
+
+<!-- yucca plants: default = 0.03 -->
+<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome/decorations/decoration[@blockname='plantedYucca3Harvest']/@prob">0.015</set>
+
+<!-- aloe plants: default = 0.03 -->
+<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome/decorations/decoration[@blockname='plantedAloe3Harvest']/@prob">0.015</set>
+
+<!-- small stones: default = 0.001 -->
+<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome/decorations/decoration[@blockname='rock01']/@prob">0.002</set>
+<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome/decorations/decoration[@blockname='rock02']/@prob">0.002</set>
+<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome/decorations/decoration[@blockname='rock04']/@prob">0.002</set>
+
+<!-- birds nests: default = 0.001 -->
+<set xpath="/worldgeneration/biomes/biome[@name='desert']/subbiome/decorations/decoration[@blockname='cntBirdnest']/@prob">0.0001</set>
+
+
+
+<!-- ********************** -->
+<!-- ***** SNOW BIOME ***** -->
+<!-- ********************** -->
+
+<!-- boulders: default = 0.00033 -->
+<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome/decorations/decoration[@blockname='rockResource']/@prob">0.0</set>
+<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome/decorations/decoration[@blockname='rockResource02']/@prob">0.0</set>
+
+<!-- small stones: default = 0.001 or 0.005 -->
+<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome/decorations/decoration[@blockname='rock05']/@prob">0.0</set>
+<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome/decorations/decoration[@blockname='rock06']/@prob">0.0</set>
+<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome/decorations/decoration[@blockname='rock07']/@prob">0.0</set>
+
+<!-- birds nests: default = 0.001 -->
+<set xpath="/worldgeneration/biomes/biome[@name='snow']/subbiome/decorations/decoration[@blockname='cntBirdnest']/@prob">0.0</set>
+
+
+
+<!-- *************************** -->
+<!-- ***** BURNT BIOME ***** -->
+<!-- *************************** -->
+
+<!-- birds nests: default = 0.001 -->
+<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/subbiome/decorations/decoration[@blockname='cntBirdnest']/@prob">0.0005</set>
+
+
+
+<!-- *************************** -->
+<!-- ***** WASTELAND BIOME ***** -->
+<!-- *************************** -->
+
+<!-- boulders: default = 0.00033 -->
+<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='rockResource']/@prob">0.00016</set>
+<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='rockResource02']/@prob">0.00016</set>
+
+<!-- small stones: default = 0.004 -->
+<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='rock01']/@prob">0.008</set>
+<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='rock02']/@prob">0.008</set>
+<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome/decorations/decoration[@blockname='rock04']/@prob">0.008</set>
+
+<!-- small stones: default = 0.01 -->
+<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.3']/decorations/decoration[@blockname='rock01']/@prob">0.02</set>
+<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.3']/decorations/decoration[@blockname='rock02']/@prob">0.02</set>
+<set xpath="/worldgeneration/biomes/biome[@name='wasteland']/subbiome[@prob='0.3']/decorations/decoration[@blockname='rock04']/@prob">0.02</set>
+
+
+</ErrorNull>
