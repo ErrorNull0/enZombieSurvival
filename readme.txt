@@ -3,9 +3,6 @@ https://community.7daystodie.com/topic/24594-enzombies-more-zombie-variations/
 
 This add-on mod alters various game elements to tailor it to my personal playstyle - where it is more challenging and focused on survival. The enZombies mod is required to be installed for this survival mod to function. This survival mod is completely server-side, so only needed on the server.
 
-Note: I use the No Traders mod by Aerial ( https://community.7daystodie.com/topic/26765-no-traders-modlet/ ) to remove all traders from the map, and then install my enZombies Traders mod ( https://github.com/ErrorNull0/enZombiesTraders ) to add in wandering traders.
-
-
 Version 1.1 Update:
 - removes all trader POIs when new RWG map is created
 - removed initial message from Duke on new game
