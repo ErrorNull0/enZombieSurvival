@@ -1,6 +1,7 @@
 <ErrorNull>
 	<append xpath="/recipes">
 	
+		<!-- craft edible nuts from tree seeds -->
 		<recipe name="enNuts" count="1" craft_time="5">
 			<ingredient name="treePlantedMountainPine1m" count="4"/>
 		</recipe>

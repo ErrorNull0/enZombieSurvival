@@ -1,6 +1,6 @@
 <ErrorNull>
 
-<!-- add 10% dysentery chance to consuming raw eggs -->
+<!-- add 10% dysentery chance when eating raw eggs -->
 <append xpath="/items/item[@name='foodEgg']/effect_group">
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="10"/><display_value name="dDysenteryRisk" value=".10"/>
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
@@ -9,8 +9,15 @@
 	</triggered_effect>
 </append>
 
-
 <append xpath="/items">
+
+	<item name="enNoteSurvival">
+		<property name="Extends" value="blankNoteMaster"/>
+		<property name="CreativeMode" value="None"/>
+		<property name="DescriptionKey" value="enNoteSurvivalDesc"/>
+		<property name="CustomIcon" value="challengeQuestMaster"/>
+	</item>
+
 	<item name="enNuts">
 		<property name="Tags" value="food"/>
 		<property name="DisplayType" value="foodRaw"/>

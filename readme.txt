@@ -1,10 +1,19 @@
-enZombie Survival v1.0
+enZombie Survival v1.1
 https://community.7daystodie.com/topic/24594-enzombies-more-zombie-variations/
 
 This add-on mod alters various game elements to tailor it to my personal playstyle - where it is more challenging and focused on survival. The enZombies mod is required to be installed for this survival mod to function. This survival mod is completely server-side, so only needed on the server.
 
-What this mod changes:
+Note: I use the No Traders mod by Aerial ( https://community.7daystodie.com/topic/26765-no-traders-modlet/ ) to remove all traders from the map, and then install my enZombies Traders mod ( https://github.com/ErrorNull0/enZombiesTraders ) to add in wandering traders.
 
+
+Version 1.1 Update:
+- removes all trader POIs when new RWG map is created
+- removed initial message from Duke on new game
+- initial survival quest stops at stone axe, and only get 1 skill point
+- removed new game Newbie coat protection
+- reduce safe fall distance from 6m to 4m
+
+Version 1.0 Update:
 - reduces bird nests from forest biome by 10x
 - reduces cotton plants in forest biome in half
 - reduces yucca and aloe plants in desert biome in half
@@ -32,9 +41,3 @@ What this mod changes:
 - initial survival quest ends after crafting stone axe
 - completing initial survival quest provides only 1 skill point
 - removed trader locate from initial survival quest
-
-Note: I use the No Traders mod by Aerial ( https://community.7daystodie.com/topic/26765-no-traders-modlet/ ) to remove all traders from the map, and then install my enZombies Traders mod ( https://github.com/ErrorNull0/enZombiesTraders ) to add in wandering traders.
-
-
-Version 1.0 Update:
-- 

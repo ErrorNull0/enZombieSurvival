@@ -1,0 +1,8 @@
+<ErrorNull>
+
+<!-- remove trader POIs from all townships (CREDIT: NoTraders A20 v1.1 by Aerial) -->
+<append xpath="/rwgmixer/township[@name='countrytown']"><property name="spawn_trader" value="false"/></append>
+<append xpath="/rwgmixer/township[@name='town']"><property name="spawn_trader" value="false"/></append>
+<append xpath="/rwgmixer/township[@name='city']"><property name="spawn_trader" value="false"/></append>
+
+</ErrorNull>

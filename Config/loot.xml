@@ -1,5 +1,6 @@
 <ErrorNull>
 
+<!-- add chance for raw eggs in fridge -->
 <insertBefore xpath="/lootcontainers/lootgroup[@name='groupFoodCommon']">
 	<lootgroup name="groupColdFridge">
 		<item name="foodEgg"/>

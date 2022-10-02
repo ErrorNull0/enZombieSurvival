@@ -1,7 +1,7 @@
 <ErrorNull>
 
-<!-- reduce headshot attack bonus from 100% to 70% -->
-<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']/@value">1.0</set>
+<!-- set new game starting items -->
+<set xpath="/entity_classes/entity_class[@name='playerMale']/property[contains(@name,'ItemsOnEnterGame')]/@value">enNoteSurvival</set>
 
 <!-- greatly reduce overall player damage to entities (zombies, animals, corpses, etc) by 75% -->
 <insertAfter xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='DamageModifier' and @tags='head']">

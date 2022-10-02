@@ -1,0 +1,18 @@
+<ErrorNull>
+
+<!-- remove new game message from duke and strip down initial survival quest -->
+<remove xpath="/gameevents/action_sequence[@name='game_first_spawn']/action" />
+<append xpath="/gameevents/action_sequence[@name='game_first_spawn']">
+	<action class="Delay">
+		<property name="time" value="5" />
+		<property name="phase" value="1" />
+	</action>
+	<action class="AddQuest">
+		<property name="quest" value="quest_BasicSurvival1" />
+		<property name="phase" value="2" />
+	</action>
+</append>
+
+	
+	
+</ErrorNull>

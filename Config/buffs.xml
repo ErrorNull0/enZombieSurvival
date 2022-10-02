@@ -1,0 +1,13 @@
+<ErrorNull>
+
+<!-- remove the new game Newbie Coat Exp death protection -->
+<remove xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffNewbieCoat']" />
+
+<!-- reduce the safe fall distance from 6m to 4m -->
+<insertAfter xpath="/buffs/buff[@name='buffPlayerFallingDamage']/effect_group/triggered_effect[@trigger='onSelfBuffStart'][@value='@_fallSpeed']">
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".impactSpeed" operation="add" value=".0566"/>
+</insertAfter>
+
+</ErrorNull>
+
+

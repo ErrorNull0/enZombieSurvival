@@ -1,5 +1,15 @@
 ﻿Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate 
 enNuts,items,Food,,,Nuts,
 enNutsDesc,items,Food,,,"Nuts from trees.",
+
 quest_BasicSurvival1,Quest,Quest Info,,,Basic Survival 1/2,,Das 1x1 des Überlebens 1/2,Supervivencia básica 1/2,Les bases de la survie 1/2,Basi della sopravvivenza 1/2,生き残るための基礎知識 1/2,기본 생존 1/2,Podstawy przetrwania 1/2,Sobrevivência Básica 1/2,Основы выживания 1/2,Temel Hayatta Kalma 1/2,基础生存 1/2,基本生存 1/2,Supervivencia básica 1/2
+
 quest_BasicSurvival2,Quest,Quest Info,,,Basic Survival 2/2,,Das 1x1 des Überlebens 2/2,Supervivencia básica 2/2,Les bases de la survie 2/2,Basi della sopravvivenza 2/2,生き残るための基礎知識 2/2,기본 생존 2/2,Podstawy przetrwania 2/2,Sobrevivência Básica 2/2,Основы выживания 2/2,Temel Hayatta Kalma 2/2,基础生存 2/2,基本生存 2/2,Supervivencia básica 2/2
+
+tutorialTipQuest02,Journal Tip,,,,"Craft a bedroll then a stone axe.\n\nSurvive for as long as you can by not starving or being eaten by zombies.\n\nGood luck!",
+
+tutorialTipQuest02_title,Journal Tip,,,,You Must Survive,,
+
+enNoteSurvival,items,Quest - Note,,,To Do List,,
+
+enNoteSurvivalDesc,items,Quest - Note,,,"- craft a weapon\n- craft some clothing\n- craft some bandages\n- find food and water\n- find shelter for the night\n- find trader Jen\n- stay alive",,
